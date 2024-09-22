@@ -15,9 +15,14 @@
 }
 
 .img-text {
-	font-size: 14px;
+	margin-top:175px;
+	margin-left:10px;
+	font-size: 12px;
 	font-weight: bold;
 	color:white;
+}
+.text{
+	display:none;
 }
 .active{
 	width:300px;
