@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	justify-content:center;
+}
+.panel{
+	height:200px;
+	width:35px;
+	border-radius:50px;
+	margin:0px 5px;
+	border:1px solid black;
+	cursor:pointer;
+	background-size: 1000%; 
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-text {
+	position:relative;
+	left:20px;
+bottom:20px;
+  /* text-align:left; */
+  font-size: 14px;
+  font-weight: bold;
+  color:white;
+}
+.active{
+	width:300px;
+	border-radius:20px;
+	background-size: cover;
+}
