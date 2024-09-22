@@ -25,7 +25,6 @@ const images=[
 	}
 ];
 panels.forEach((panel,idx)=>{
-	// panel.style.backgroundColor=colors[idx];
 	panel.style.backgroundImage=`url(${images[idx].Link})`;
 });
 
@@ -33,7 +32,6 @@ panels.forEach((panel)=>{
 	panel.addEventListener("click",()=>{
 		removeActive();
 		panel.classList.add("active");
-		panel.innerText="Nothing";
 	})
 })
 function removeActive() {
